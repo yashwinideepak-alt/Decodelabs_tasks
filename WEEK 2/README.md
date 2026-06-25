@@ -1,7 +1,31 @@
-# Sample Hardhat 3 Project (minimal)
+DECODELABS Internship - Week 2
 
-This project has a minimal setup of Hardhat 3, without any plugins.
+This week focused on smart contract development using Solidity and the Hardhat framework.
 
-## What's included?
+Project: Decentralized Voting System
 
-The project includes native support for TypeScript, Hardhat scripts, tasks, and support for Solidity compilation and tests.
+Description:
+A blockchain-based voting system where a chairperson can give voting rights to users, voters can cast their votes, and the contract automatically calculates and returns the winning proposal in a transparent and tamper-proof way.
+
+Features:
+- Voter registration controlled by chairperson
+- One person one vote system
+- Prevention of double voting
+- Proposal creation and vote counting
+- Automatic winner calculation
+
+Technologies Used:
+- Solidity
+- Hardhat
+- Node.js
+- Ethereum smart contract concepts
+
+Key Learnings:
+- Structs, mappings, and arrays in Solidity
+- Access control using modifiers
+- Event logging in smart contracts
+- Compile and deploy workflow using Hardhat
+- Basics of decentralized governance systems
+
+Outcome:
+Successfully built and compiled a working decentralized voting smart contract on a local blockchain environment.
